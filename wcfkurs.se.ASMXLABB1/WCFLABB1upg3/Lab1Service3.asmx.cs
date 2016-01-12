@@ -4,23 +4,23 @@ using System.Linq;
 using System.Web;
 using System.Web.Services;
 
-namespace wcfkurs.se.ASMXLABB1
+namespace WCFLABB1upg3
 {
     /// <summary>
-    /// Summary description for Labb1Service
+    /// Summary description for Lab1Service3
     /// </summary>
     [WebService(Namespace = "http://tempuri.org/")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
     // To allow this Web Service to be called from script, using ASP.NET AJAX, uncomment the following line. 
     // [System.Web.Script.Services.ScriptService]
-    public class Labb1Service : System.Web.Services.WebService
+    public class Lab1Service3 : System.Web.Services.WebService
     {
 
         [WebMethod]
-        public string HelloWorld()
+        public int AddThreeNumbers(int nr1,int nr2,int nr3)
         {
-            return "Hello World";
+            return nr1+nr2+nr3;
         }
     }
 }

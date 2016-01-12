@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
 
-namespace wcfkurs.se.ASMXLABB1
+namespace WCFLABB1upg3
 {
     public class Global : System.Web.HttpApplication
     {

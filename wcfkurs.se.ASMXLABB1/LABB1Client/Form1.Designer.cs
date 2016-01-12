@@ -30,10 +30,22 @@
         {
             this.WeatherButton = new System.Windows.Forms.Button();
             this.WeatherLabel = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.AddTwoBox1 = new System.Windows.Forms.TextBox();
+            this.AddTwoBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.AddTwoResultLabel = new System.Windows.Forms.Label();
+            this.AddTwoButton = new System.Windows.Forms.Button();
+            this.AddThreeBox1 = new System.Windows.Forms.TextBox();
+            this.AddThreeBox2 = new System.Windows.Forms.TextBox();
+            this.AddThreeBox3 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.AddResultLabel2 = new System.Windows.Forms.Label();
+            this.AddThreeButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // WeatherButton
@@ -55,19 +67,19 @@
             this.WeatherLabel.TabIndex = 1;
             this.WeatherLabel.Text = "label1";
             // 
-            // textBox1
+            // AddTwoBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(0, 49);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(63, 20);
-            this.textBox1.TabIndex = 2;
+            this.AddTwoBox1.Location = new System.Drawing.Point(0, 49);
+            this.AddTwoBox1.Name = "AddTwoBox1";
+            this.AddTwoBox1.Size = new System.Drawing.Size(63, 20);
+            this.AddTwoBox1.TabIndex = 2;
             // 
-            // textBox2
+            // AddTwoBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(88, 49);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(63, 20);
-            this.textBox2.TabIndex = 3;
+            this.AddTwoBox2.Location = new System.Drawing.Point(88, 49);
+            this.AddTwoBox2.Name = "AddTwoBox2";
+            this.AddTwoBox2.Size = new System.Drawing.Size(63, 20);
+            this.AddTwoBox2.TabIndex = 3;
             // 
             // label1
             // 
@@ -82,21 +94,138 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(38, 72);
+            this.label2.Location = new System.Drawing.Point(4, 72);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(78, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "Add 2 numbers";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(157, 52);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(13, 13);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "=";
+            // 
+            // AddTwoResultLabel
+            // 
+            this.AddTwoResultLabel.AutoSize = true;
+            this.AddTwoResultLabel.Location = new System.Drawing.Point(177, 55);
+            this.AddTwoResultLabel.Name = "AddTwoResultLabel";
+            this.AddTwoResultLabel.Size = new System.Drawing.Size(82, 13);
+            this.AddTwoResultLabel.TabIndex = 7;
+            this.AddTwoResultLabel.Text = "AddResultLabel";
+            // 
+            // AddTwoButton
+            // 
+            this.AddTwoButton.Location = new System.Drawing.Point(88, 72);
+            this.AddTwoButton.Name = "AddTwoButton";
+            this.AddTwoButton.Size = new System.Drawing.Size(75, 23);
+            this.AddTwoButton.TabIndex = 8;
+            this.AddTwoButton.Text = "Calculate";
+            this.AddTwoButton.UseVisualStyleBackColor = true;
+            this.AddTwoButton.Click += new System.EventHandler(this.AddTwoButton_Click);
+            // 
+            // AddThreeBox1
+            // 
+            this.AddThreeBox1.Location = new System.Drawing.Point(0, 99);
+            this.AddThreeBox1.Name = "AddThreeBox1";
+            this.AddThreeBox1.Size = new System.Drawing.Size(45, 20);
+            this.AddThreeBox1.TabIndex = 9;
+            // 
+            // AddThreeBox2
+            // 
+            this.AddThreeBox2.Location = new System.Drawing.Point(70, 99);
+            this.AddThreeBox2.Name = "AddThreeBox2";
+            this.AddThreeBox2.Size = new System.Drawing.Size(45, 20);
+            this.AddThreeBox2.TabIndex = 10;
+            this.AddThreeBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // AddThreeBox3
+            // 
+            this.AddThreeBox3.Location = new System.Drawing.Point(140, 99);
+            this.AddThreeBox3.Name = "AddThreeBox3";
+            this.AddThreeBox3.Size = new System.Drawing.Size(45, 20);
+            this.AddThreeBox3.TabIndex = 11;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(51, 102);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(13, 13);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "+";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(121, 102);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(13, 13);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "+";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(4, 122);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(78, 13);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Add 3 numbers";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(191, 102);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(13, 13);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "=";
+            // 
+            // AddResultLabel2
+            // 
+            this.AddResultLabel2.AutoSize = true;
+            this.AddResultLabel2.Location = new System.Drawing.Point(210, 102);
+            this.AddResultLabel2.Name = "AddResultLabel2";
+            this.AddResultLabel2.Size = new System.Drawing.Size(88, 13);
+            this.AddResultLabel2.TabIndex = 16;
+            this.AddResultLabel2.Text = "AddResultLabel2";
+            // 
+            // AddThreeButton
+            // 
+            this.AddThreeButton.Location = new System.Drawing.Point(88, 125);
+            this.AddThreeButton.Name = "AddThreeButton";
+            this.AddThreeButton.Size = new System.Drawing.Size(75, 23);
+            this.AddThreeButton.TabIndex = 17;
+            this.AddThreeButton.Text = "Calculate";
+            this.AddThreeButton.UseVisualStyleBackColor = true;
+            this.AddThreeButton.Click += new System.EventHandler(this.AddThreeButton_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(360, 347);
+            this.Controls.Add(this.AddThreeButton);
+            this.Controls.Add(this.AddResultLabel2);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.AddThreeBox3);
+            this.Controls.Add(this.AddThreeBox2);
+            this.Controls.Add(this.AddThreeBox1);
+            this.Controls.Add(this.AddTwoButton);
+            this.Controls.Add(this.AddTwoResultLabel);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.AddTwoBox2);
+            this.Controls.Add(this.AddTwoBox1);
             this.Controls.Add(this.WeatherLabel);
             this.Controls.Add(this.WeatherButton);
             this.Name = "Form1";
@@ -110,10 +239,22 @@
 
         private System.Windows.Forms.Button WeatherButton;
         private System.Windows.Forms.Label WeatherLabel;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox AddTwoBox1;
+        private System.Windows.Forms.TextBox AddTwoBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label AddTwoResultLabel;
+        private System.Windows.Forms.Button AddTwoButton;
+        private System.Windows.Forms.TextBox AddThreeBox1;
+        private System.Windows.Forms.TextBox AddThreeBox2;
+        private System.Windows.Forms.TextBox AddThreeBox3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label AddResultLabel2;
+        private System.Windows.Forms.Button AddThreeButton;
     }
 }
 

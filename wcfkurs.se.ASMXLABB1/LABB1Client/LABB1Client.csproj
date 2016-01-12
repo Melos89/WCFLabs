@@ -61,6 +61,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Service References\Lab1Service3\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Service References\Labb1Service1\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -88,6 +93,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <None Include="Service References\Lab1Service2\Lab1Service2.wsdl" />
+    <None Include="Service References\Lab1Service3\Lab1Service3.wsdl" />
     <None Include="Service References\Labb1Service1\Lab1Service1.wsdl" />
     <None Include="Service References\Labb1Service1\LABB1Client.Labb1Service1.EstimatedWeatherResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -101,6 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadataStorage Include="Service References\Lab1Service2\" />
+    <WCFMetadataStorage Include="Service References\Lab1Service3\" />
     <WCFMetadataStorage Include="Service References\Labb1Service1\" />
   </ItemGroup>
   <ItemGroup>
@@ -129,6 +136,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\Lab1Service2\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Lab1Service3\Lab1Service3.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Lab1Service3\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Lab1Service3\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Lab1Service3\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
