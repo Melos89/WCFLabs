@@ -18,9 +18,9 @@ namespace WCRLABB1upg2
     {
 
         [WebMethod]
-        public string HelloWorld()
+        public int AddFunction(int nrx,int nry)
         {
-            return "Hello World";
+            return nrx + nry;
         }
     }
 }
