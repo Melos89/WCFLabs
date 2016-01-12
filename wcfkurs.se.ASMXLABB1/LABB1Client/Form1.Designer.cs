@@ -46,6 +46,13 @@
             this.label7 = new System.Windows.Forms.Label();
             this.AddResultLabel2 = new System.Windows.Forms.Label();
             this.AddThreeButton = new System.Windows.Forms.Button();
+            this.SubtractBox1 = new System.Windows.Forms.TextBox();
+            this.SubtractBox2 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.AddResultLabel3 = new System.Windows.Forms.Label();
+            this.SubtractButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // WeatherButton
@@ -205,11 +212,77 @@
             this.AddThreeButton.UseVisualStyleBackColor = true;
             this.AddThreeButton.Click += new System.EventHandler(this.AddThreeButton_Click);
             // 
+            // SubtractBox1
+            // 
+            this.SubtractBox1.Location = new System.Drawing.Point(0, 154);
+            this.SubtractBox1.Name = "SubtractBox1";
+            this.SubtractBox1.Size = new System.Drawing.Size(45, 20);
+            this.SubtractBox1.TabIndex = 18;
+            // 
+            // SubtractBox2
+            // 
+            this.SubtractBox2.Location = new System.Drawing.Point(67, 154);
+            this.SubtractBox2.Name = "SubtractBox2";
+            this.SubtractBox2.Size = new System.Drawing.Size(45, 20);
+            this.SubtractBox2.TabIndex = 19;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(51, 157);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(10, 13);
+            this.label8.TabIndex = 20;
+            this.label8.Text = "-";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(121, 157);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(13, 13);
+            this.label9.TabIndex = 21;
+            this.label9.Text = "=";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(4, 177);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(108, 13);
+            this.label10.TabIndex = 22;
+            this.label10.Text = "Subtract from number";
+            // 
+            // AddResultLabel3
+            // 
+            this.AddResultLabel3.AutoSize = true;
+            this.AddResultLabel3.Location = new System.Drawing.Point(137, 157);
+            this.AddResultLabel3.Name = "AddResultLabel3";
+            this.AddResultLabel3.Size = new System.Drawing.Size(83, 13);
+            this.AddResultLabel3.TabIndex = 23;
+            this.AddResultLabel3.Text = "AddresultLabel3";
+            // 
+            // SubtractButton
+            // 
+            this.SubtractButton.Location = new System.Drawing.Point(118, 173);
+            this.SubtractButton.Name = "SubtractButton";
+            this.SubtractButton.Size = new System.Drawing.Size(75, 23);
+            this.SubtractButton.TabIndex = 24;
+            this.SubtractButton.Text = "Calculate";
+            this.SubtractButton.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(360, 347);
+            this.Controls.Add(this.SubtractButton);
+            this.Controls.Add(this.AddResultLabel3);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.SubtractBox2);
+            this.Controls.Add(this.SubtractBox1);
             this.Controls.Add(this.AddThreeButton);
             this.Controls.Add(this.AddResultLabel2);
             this.Controls.Add(this.label7);
@@ -255,6 +328,13 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label AddResultLabel2;
         private System.Windows.Forms.Button AddThreeButton;
+        private System.Windows.Forms.TextBox SubtractBox1;
+        private System.Windows.Forms.TextBox SubtractBox2;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label AddResultLabel3;
+        private System.Windows.Forms.Button SubtractButton;
     }
 }
 
