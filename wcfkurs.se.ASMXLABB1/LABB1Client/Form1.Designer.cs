@@ -51,7 +51,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.AddResultLabel3 = new System.Windows.Forms.Label();
+            this.SubtractResultLabel3 = new System.Windows.Forms.Label();
             this.SubtractButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -253,14 +253,14 @@
             this.label10.TabIndex = 22;
             this.label10.Text = "Subtract from number";
             // 
-            // AddResultLabel3
+            // SubtractResultLabel3
             // 
-            this.AddResultLabel3.AutoSize = true;
-            this.AddResultLabel3.Location = new System.Drawing.Point(137, 157);
-            this.AddResultLabel3.Name = "AddResultLabel3";
-            this.AddResultLabel3.Size = new System.Drawing.Size(83, 13);
-            this.AddResultLabel3.TabIndex = 23;
-            this.AddResultLabel3.Text = "AddresultLabel3";
+            this.SubtractResultLabel3.AutoSize = true;
+            this.SubtractResultLabel3.Location = new System.Drawing.Point(137, 157);
+            this.SubtractResultLabel3.Name = "SubtractResultLabel3";
+            this.SubtractResultLabel3.Size = new System.Drawing.Size(104, 13);
+            this.SubtractResultLabel3.TabIndex = 23;
+            this.SubtractResultLabel3.Text = "SubtractresultLabel3";
             // 
             // SubtractButton
             // 
@@ -270,6 +270,7 @@
             this.SubtractButton.TabIndex = 24;
             this.SubtractButton.Text = "Calculate";
             this.SubtractButton.UseVisualStyleBackColor = true;
+            this.SubtractButton.Click += new System.EventHandler(this.SubtractButton_Click);
             // 
             // Form1
             // 
@@ -277,7 +278,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(360, 347);
             this.Controls.Add(this.SubtractButton);
-            this.Controls.Add(this.AddResultLabel3);
+            this.Controls.Add(this.SubtractResultLabel3);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -333,7 +334,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label AddResultLabel3;
+        private System.Windows.Forms.Label SubtractResultLabel3;
         private System.Windows.Forms.Button SubtractButton;
     }
 }

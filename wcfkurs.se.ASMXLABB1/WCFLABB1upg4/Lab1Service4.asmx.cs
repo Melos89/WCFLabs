@@ -18,7 +18,7 @@ namespace WCFLABB1upg4
     {
 
         [WebMethod]
-        public int HelloWorld(int x,int y)
+        public int Subtract(int x,int y)
         {
             return x-y;
         }

@@ -15,11 +15,11 @@ namespace LABB1Client.Lab1Service4 {
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="Lab1Service4.Lab1Service4Soap")]
     public interface Lab1Service4Soap {
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/HelloWorld", ReplyAction="*")]
-        int HelloWorld(int x, int y);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Subtract", ReplyAction="*")]
+        int Subtract(int x, int y);
         
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/HelloWorld", ReplyAction="*")]
-        System.Threading.Tasks.Task<int> HelloWorldAsync(int x, int y);
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/Subtract", ReplyAction="*")]
+        System.Threading.Tasks.Task<int> SubtractAsync(int x, int y);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -49,12 +49,12 @@ namespace LABB1Client.Lab1Service4 {
                 base(binding, remoteAddress) {
         }
         
-        public int HelloWorld(int x, int y) {
-            return base.Channel.HelloWorld(x, y);
+        public int Subtract(int x, int y) {
+            return base.Channel.Subtract(x, y);
         }
         
-        public System.Threading.Tasks.Task<int> HelloWorldAsync(int x, int y) {
-            return base.Channel.HelloWorldAsync(x, y);
+        public System.Threading.Tasks.Task<int> SubtractAsync(int x, int y) {
+            return base.Channel.SubtractAsync(x, y);
         }
     }
 }

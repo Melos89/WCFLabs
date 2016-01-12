@@ -46,5 +46,12 @@ namespace LABB1Client
 
             AddResultLabel2.Text = client.AddThreeNumbers(int.Parse(AddThreeBox1.Text), int.Parse(AddThreeBox2.Text), int.Parse(AddThreeBox3.Text)).ToString();
         }
+
+        private void SubtractButton_Click(object sender, EventArgs e)
+        {
+            Lab1Service4.Lab1Service4SoapClient client = new Lab1Service4.Lab1Service4SoapClient();
+
+            SubtractResultLabel3.Text = client.Subtract(int.Parse(SubtractBox1.Text),int.Parse(SubtractBox2.Text)).ToString();
+        }
     }
 }
