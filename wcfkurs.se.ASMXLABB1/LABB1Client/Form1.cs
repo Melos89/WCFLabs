@@ -28,5 +28,23 @@ namespace LABB1Client
         {
 
         }
+
+        private void AddTwoButton_Click(object sender, EventArgs e)
+        {
+            Lab1Service2.Lab1Service2SoapClient client = new Lab1Service2.Lab1Service2SoapClient();
+            AddTwoResultLabel.Text = client.AddFunction(int.Parse(AddTwoBox1.Text),int.Parse(AddTwoBox2.Text)).ToString();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AddThreeButton_Click(object sender, EventArgs e)
+        {
+            Lab1Service3.Lab1Service3SoapClient client = new Lab1Service3.Lab1Service3SoapClient();
+
+            AddResultLabel2.Text = client.AddThreeNumbers(int.Parse(AddThreeBox1.Text), int.Parse(AddThreeBox2.Text), int.Parse(AddThreeBox3.Text)).ToString();
+        }
     }
 }
