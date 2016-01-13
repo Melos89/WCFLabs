@@ -28,7 +28,8 @@ namespace WCFLABB1upg6extras3
             {
                 foreach (var person in list[Month])
                 {
-                    result += person + "\r\n" + "----------------";
+                    result += person;
+                    result += "\n\r";
                 }
                 return result;
             }
@@ -54,7 +55,7 @@ namespace WCFLABB1upg6extras3
                 while ((textLine = stream.ReadLine()) != null)
                 {
                     var letter = textLine.Split('.');
-                    var key = Regex.Replace(letter[0], @"[\d-]", string.Empty);
+                    var key = Regex.Replace(letter[0], @"[\d-]", string.Empty).Trim();
 
                     if (!dict.Keys.Contains(key))
                         dict.Add(key, new List<string> { textLine});
