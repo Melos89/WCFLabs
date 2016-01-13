@@ -22,18 +22,30 @@ namespace WCFLABB1upg5
         public string DateFinder(string name)
         {
             var dict = listPopulator();
-            var day = dict.Where(x => x.Value.Contains(name)).Select(x => x.Key).ToString();
-            return day;
+            var query = (from d in dict
+                       where d.Value.Contains(name)
+                       select d.Key).FirstOrDefault();
+            if (query != null)
+                return query.ToString();
+            else
+                return "Not in the list!";
         }
         public Dictionary<string,string> listPopulator()
         {
+            //To get the location the assembly normally resides on disk or the install directory
+            string path = System.Reflection.Assembly.GetExecutingAssembly().CodeBase;
+            //once you have the path you get the directory with:
+            var directory = Path.GetDirectoryName(path);
+            //Cut away unwanted start sequence:
+            var dir = directory.Substring(6);
+
             var dict = new Dictionary<string, string>();
             var textLine = "";
-            using (var stream = new StreamReader("/~Namnsdag.txt"))
+            using (var stream = new StreamReader(dir + "\\Namnsdag.txt"))
             {
                 while ((textLine = stream.ReadLine()) != null)
                 {
-                    var rows = textLine.Split(',');
+                    var rows = textLine.Split('.');
                     dict.Add(rows[0], rows[1]);
                 }
             }

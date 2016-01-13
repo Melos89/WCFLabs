@@ -53,5 +53,12 @@ namespace LABB1Client
 
             SubtractResultLabel3.Text = client.Subtract(int.Parse(SubtractBox1.Text),int.Parse(SubtractBox2.Text)).ToString();
         }
+
+        private void FindDayButton_Click(object sender, EventArgs e)
+        {
+            Lab1Service5.Lab1Service5SoapClient client = new Lab1Service5.Lab1Service5SoapClient();
+
+            NameDayDateLabel.Text = client.DateFinder(NameBox.Text);
+        }
     }
 }

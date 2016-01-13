@@ -71,6 +71,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Service References\Lab1Service5\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Service References\Labb1Service1\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -100,6 +105,10 @@
     <None Include="Service References\Lab1Service2\Lab1Service2.wsdl" />
     <None Include="Service References\Lab1Service3\Lab1Service3.wsdl" />
     <None Include="Service References\Lab1Service4\Lab1Service4.wsdl" />
+    <None Include="Service References\Lab1Service5\Lab1Service5.wsdl" />
+    <None Include="Service References\Lab1Service5\LABB1Client.Lab1Service5.DateFinderResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\Labb1Service1\Lab1Service1.wsdl" />
     <None Include="Service References\Labb1Service1\LABB1Client.Labb1Service1.EstimatedWeatherResponse.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -115,6 +124,7 @@
     <WCFMetadataStorage Include="Service References\Lab1Service2\" />
     <WCFMetadataStorage Include="Service References\Lab1Service3\" />
     <WCFMetadataStorage Include="Service References\Lab1Service4\" />
+    <WCFMetadataStorage Include="Service References\Lab1Service5\" />
     <WCFMetadataStorage Include="Service References\Labb1Service1\" />
   </ItemGroup>
   <ItemGroup>
@@ -173,6 +183,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\Lab1Service4\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Lab1Service5\Lab1Service5.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Lab1Service5\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Lab1Service5\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Lab1Service5\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

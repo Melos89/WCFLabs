@@ -57,6 +57,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.nameDayLabel = new System.Windows.Forms.Label();
             this.FindDayButton = new System.Windows.Forms.Button();
+            this.NameDayDateLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // WeatherButton
@@ -309,12 +310,22 @@
             this.FindDayButton.TabIndex = 28;
             this.FindDayButton.Text = "Find Day";
             this.FindDayButton.UseVisualStyleBackColor = true;
+            this.FindDayButton.Click += new System.EventHandler(this.FindDayButton_Click);
+            // 
+            // NameDayDateLabel
+            // 
+            this.NameDayDateLabel.AutoSize = true;
+            this.NameDayDateLabel.Location = new System.Drawing.Point(144, 213);
+            this.NameDayDateLabel.Name = "NameDayDateLabel";
+            this.NameDayDateLabel.Size = new System.Drawing.Size(0, 13);
+            this.NameDayDateLabel.TabIndex = 29;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(360, 347);
+            this.Controls.Add(this.NameDayDateLabel);
             this.Controls.Add(this.FindDayButton);
             this.Controls.Add(this.nameDayLabel);
             this.Controls.Add(this.label11);
@@ -382,6 +393,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label nameDayLabel;
         private System.Windows.Forms.Button FindDayButton;
+        private System.Windows.Forms.Label NameDayDateLabel;
     }
 }
 
