@@ -30,5 +30,10 @@ namespace LABB1Client
 
             FruitResultTextBox.Text = client.FruitFinder(FruitTextBox.Text.FirstOrDefault());
         }
+
+        private void DeadPeopleComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

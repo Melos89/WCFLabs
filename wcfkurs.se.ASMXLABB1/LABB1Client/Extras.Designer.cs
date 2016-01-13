@@ -36,6 +36,9 @@
             this.FruitTextBox = new System.Windows.Forms.TextBox();
             this.FruitButton = new System.Windows.Forms.Button();
             this.FruitResultTextBox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.DeadPeopleComboBox = new System.Windows.Forms.ComboBox();
+            this.DeadPeopleResultBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // StopMotionMoviesBox
@@ -108,11 +111,54 @@
             this.FruitResultTextBox.Size = new System.Drawing.Size(383, 104);
             this.FruitResultTextBox.TabIndex = 7;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(13, 217);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(234, 13);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Find out who died in what month the year 2006! ";
+            // 
+            // DeadPeopleComboBox
+            // 
+            this.DeadPeopleComboBox.FormattingEnabled = true;
+            this.DeadPeopleComboBox.Items.AddRange(new object[] {
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "Oktober",
+            "November",
+            "December"});
+            this.DeadPeopleComboBox.Location = new System.Drawing.Point(1, 233);
+            this.DeadPeopleComboBox.Name = "DeadPeopleComboBox";
+            this.DeadPeopleComboBox.Size = new System.Drawing.Size(121, 21);
+            this.DeadPeopleComboBox.TabIndex = 9;
+            this.DeadPeopleComboBox.SelectedIndexChanged += new System.EventHandler(this.DeadPeopleComboBox_SelectedIndexChanged);
+            // 
+            // DeadPeopleResultBox
+            // 
+            this.DeadPeopleResultBox.Location = new System.Drawing.Point(153, 233);
+            this.DeadPeopleResultBox.Multiline = true;
+            this.DeadPeopleResultBox.Name = "DeadPeopleResultBox";
+            this.DeadPeopleResultBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.DeadPeopleResultBox.Size = new System.Drawing.Size(383, 53);
+            this.DeadPeopleResultBox.TabIndex = 10;
+            // 
             // Extras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(548, 387);
+            this.Controls.Add(this.DeadPeopleResultBox);
+            this.Controls.Add(this.DeadPeopleComboBox);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.FruitResultTextBox);
             this.Controls.Add(this.FruitButton);
             this.Controls.Add(this.FruitTextBox);
@@ -138,5 +184,8 @@
         private System.Windows.Forms.TextBox FruitTextBox;
         private System.Windows.Forms.Button FruitButton;
         private System.Windows.Forms.TextBox FruitResultTextBox;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox DeadPeopleComboBox;
+        private System.Windows.Forms.TextBox DeadPeopleResultBox;
     }
 }
