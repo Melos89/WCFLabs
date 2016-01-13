@@ -147,8 +147,9 @@
             this.DeadPeopleResultBox.Location = new System.Drawing.Point(153, 233);
             this.DeadPeopleResultBox.Multiline = true;
             this.DeadPeopleResultBox.Name = "DeadPeopleResultBox";
+            this.DeadPeopleResultBox.ReadOnly = true;
             this.DeadPeopleResultBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.DeadPeopleResultBox.Size = new System.Drawing.Size(383, 53);
+            this.DeadPeopleResultBox.Size = new System.Drawing.Size(383, 64);
             this.DeadPeopleResultBox.TabIndex = 10;
             // 
             // Extras

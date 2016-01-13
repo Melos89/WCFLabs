@@ -35,7 +35,7 @@ namespace LABB1Client
         {
             Lab1ExtrasService3.Extras3ServiceSoapClient client = new Lab1ExtrasService3.Extras3ServiceSoapClient();
 
-            DeadPeopleResultBox.Text = client.FindDeadPeopleByMonth(DeadPeopleComboBox.SelectedText);
+            DeadPeopleResultBox.Text = client.FindDeadPeopleByMonth(DeadPeopleComboBox.Text);
         }
     }
 }
