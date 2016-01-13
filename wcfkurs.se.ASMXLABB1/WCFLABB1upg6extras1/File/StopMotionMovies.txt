@@ -1,0 +1,133 @@
+1917.	El Apóstol	Argentina	Cutout	
+1926.	The Adventures of Prince Achmed	Germany	Cutout	
+1935.	The New Gulliver	USSR	Puppet	
+1937.	The Tale of the Fox	France	Puppet	
+1937.	The Seven Ravens	Germany	Puppet	
+1945.	Handling Ships	UK	Puppet	
+1947.	The Crab with the Golden Claws	Belgium	Puppet	
+1947.	The Czech Year AKA A Treasury of Fairy-tales	Czechoslovakia	Puppet	
+1947.	Adventures of Esparadrapo	Spain	Puppet	
+1949.	Alice in Wonderland	France	Puppet	
+1949.	The Emperor's Nightingale	Czechoslovakia	Puppet	
+1950.	Prince Bayaya	Czechoslovakia	Puppet	
+1953.	The Treasure Of Bird Island	Czechoslovakia	Cutout	
+1953.	Old Czech Legends	Czechoslovakia	Puppet	
+1954.	Hansel and Gretel: An Opera Fantasy	US	Puppet	
+1958.	Beloved Beauty	USSR	Puppet	
+1959.	A Midsummer Night's Dream	Czechoslovakia	Puppet	
+1961.	The Strange Story of the Inhabitants of Schiltburg	Germany	Puppet	
+1962.	Heaven and Earth Magic	US	Cutout	
+1962.	Joseph The Dreamer	Israel	Puppet	
+1964.	The Peacock Princess	China	Puppet	
+1964.	The Girl With Long Hair	China	Puppet	
+1964.	Rudolph the Red-Nosed Reindeer	US/UK/Australia/Canada/France/USSR/West Germany/East Germany	Puppet	
+1964.	Lefty	USSR	Cutout	
+1965.	Willy McBean and his Magic Machine	Japan/US	Puppet	
+1966.	Go There, Don't Know Where	USSR	Cutout/Puppet	
+1966.	Taro, the Son Of Dragon	Japan	Puppet	
+1967.	The Kurohime Story	Japan	Puppet	
+1968.	The Mighty Taro	Japan	Puppet	
+1968.	Adam 2	West Germany	Cutout	
+1968.	Mad Monster Party	US	Puppet	
+1969.	Hanako, The Elephant	Japan	Puppet	
+1970.	Santa Claus Is Comin' to Town	Japan/US	Puppet	
+1970.	Dougal and the Blue Cat	France	Puppet	
+1971.	Here Comes Peter Cottontail	US	Puppet	
+1972.	The Emperor's New Clothes[1]	US	Puppet	
+1973.	Fantastic Planet	France	Cutout	
+1974.	The Year Without a Santa Claus	US	Puppet	
+1974.	Tales of 1001 Nights AKA Sinbad	Czechoslovakia	Cutout	
+1975.	Flåklypa Grand Prix	Norway	Puppet	
+1976.	Rudolph's Shiny New Year	US	Puppet	
+1977.	The Easter Bunny Is Comin' To Town	US	Puppet	
+1977.	The Holiday of Disobedience[1]	USSR	Puppet	
+1977.	Rime of the Ancient Mariner	US	Cutout	
+1978.	Krabat – The Sorcerer's Apprentice	Czechoslovakia/West Germany	Cutout	
+1979.	Jack Frost	US	Puppet	
+1979.	Adventures of Captain Vrungel	USSR	Cutout	
+1979.	Nutcracker Fantasy	Japan/US	Puppet	
+1979.	Ubu et la Grande Gidouille	France	Cutout	
+1979.	Rudolph and Frosty's Christmas in July	US	Puppet	
+1980.	Pinocchio's Christmas	US	Puppet	
+1980.	The Tale Of John and Marie[2]	Czechoslovakia/USSR	Cutout	
+1981.	Rennyo and His Mother	Japan	Puppet	
+1981.	Adventures of Robinson Crusoe, a Sailor from York	Czechoslovakia	Puppet	
+1982.	The Flying Windmill	East Germany	Puppet	
+1982.	Chronopolis	France/Poland	Puppet	
+1982.	The Adventures of Sam the Squirrel	Hungary	Puppet	
+1983.	The Wind in the Willows	UK	Puppet	
+1983.	The Little Witch	Czechoslovakia/West Germany	Cutout	
+1985.	The Adventures of Mark Twain AKA Comet Quest	US	Clay/Puppet	
+1985.	The Life & Adventures of Santa Claus	US	Puppet	
+1985.	Odyssea	Czechoslovakia/East Germany	Cutout	
+1985.	The Pied Piper of Hamelin	Czechoslovakia	Puppet	
+1986.	Sophie's Place[3]	US	Cutout	
+1986.	Long live Servatius!	Hungary	Puppet	
+1987.	The Amazing Mr. Bickford	US	Clay	
+1987.	My Favourite Time[4]	USSR	Cel/Cutout	
+1988.	The Cat Who Walked by Herself	USSR	Mixed	
+1989.	The Trace Leads to the Silver Lake	East Germany	Puppet	
+1990.	The Flying Sneaker AKA The Butterflies Time	Canada/Czechoslovakia	Puppet	
+1990.	The Fool of the World and the Flying Ship	UK	Puppet	
+1990.	The School of Fine Arts[5]	USSR	Mixed	
+1990.	The School of Fine Arts: The Return[6]	USSR	Mixed	
+1992.	Mitki-Mayer [7]	Russia	Cutout	
+1993.	The Secret Adventures of Tom Thumb	UK	Mixed	
+1993.	The Nightmare Before Christmas	US	Puppet	
+1993.	The Return of Captain Sinbad	US	Puppet	
+1995.	Gumby: The Movie	US	Clay/Puppet	
+1996.	James and the Giant Peach	US/UK	Puppet	
+1996.	Kings and Cabbage[8]	Russia	Cutout/Puppet	
+1998.	The Magic Pipe	Russia	Puppet	
+2000.	The Miracle Maker	UK/Russia	Puppet	
+2000.	Chicken Run	UK/US/France	Clay/Puppet
+2000.	Prop and Berta[2]	Denmark	Puppet	
+2000.	Optimus Mundus [9][10]	Russia	Mixed	
+2002.	Jan's Werich Fimfarum	Czech Republic	Puppet	
+2003.	Winter Days	Japan	Cutout/Puppet	
+2003.	The Legend of the Sky Kingdom	Zimbabwe	Puppet	
+2004.	Davey and Goliath's Snowboard Christmas	US	Puppet	
+2005.	Klay World: Off the Table	US	Clay	
+2005.	Among The Thorns	Sweden	Puppet	
+2005.	The Book of the Dead	Japan	Puppet	
+2005.	Wallace & Gromit: The Curse of the Were-Rabbit	UK/US	Clay/Puppet	
+2005.	Corpse Bride	UK/US	Puppet	
+2005.	The Three Musketeers[3]	Denmark/Latvia	Puppet	
+2006.	Disaster! [11]	US	Puppet	
+2006.	Live Freaky! Die Freaky!	US	Puppet	
+2006.	Blood Tea and Red String	US	Puppet	
+2006.	Fimfarum 2[12]	Czech Republic	Puppet	
+2006.	Holidaze: The Christmas That Almost Didn't Happen	US	Clay/Puppet	
+2006.	Desmond & the Swamp Barbarian Trap	Sweden	Puppet	
+2006.	Davie & Golimyr [13]	US	Puppet	
+2007.	We Are the Strange	US	CGI/Puppet	
+2007.	One Night in One City	Czech Republic	Puppet	
+2007.	Max & Co	Belgium/France/Switzerland/UK	CGI/Puppet	
+2007.	Tengers	South Africa	Clay/Puppet	
+2008.	$9.99	Australia/Israel	Puppet	
+2008.	Edison and Leo	Canada	Puppet	
+2008.	A Miser Brothers' Christmas	US	Puppet	
+2009.	Coraline	US	Puppet	
+2009.	Mary and Max	Australia	Puppet	
+2009.	A Town Called Panic	Belgium/Luxembourg/France	Puppet	
+2009.	Fantastic Mr. Fox	UK/US	Puppet	
+2009.	In the Attic	Czech Republic	Puppet	
+2009.	Toys in the Attic	US	Puppet	
+2010.	Jackboots on Whitehall	UK	Puppet	
+2010.	Moomins and the Comet Chase	UK/USA/Poland/Finland	Puppet	
+2010.	The Puppet Monster Massacre	US	Puppet	
+2010.	The Sandman and the Lost Sand of Dreams[4]	Germany/France	Puppet	
+2012.	The Pirates! In an Adventure with Scientists!	UK/US	Clay/Puppet	
+2012.	ParaNorman	US	Puppet	
+2012.	O Apostolo	Spain	Puppet	
+2012.	Frankenweenie	US	Puppet	
+2012.	Selkirk, el verdadero Robinson Crusoe	Uruguay-Argentina-Chile	Puppet	
+2013.	Miffy the movie	NL	Puppet	
+2013.	The Christmas of Solan & Ludvig	Norway	Puppet	
+2013.	Worms	Brazil/Canada	Puppet	
+2014.	The Boxtrolls	US	Puppet	
+2014.	Pos eso	Spain	Puppet	
+2015.	Shaun the Sheep Movie	UK/France	Clay/Puppet	
+2015.	The Little Prince	France/Canada/Italy	CGI/Puppet	
+2015.	Hell & Back	US	Puppet	
+2015.	Anomalisa
