@@ -53,13 +53,13 @@ namespace WCFLABB1upg6extras3
             {
                 while ((textLine = stream.ReadLine()) != null)
                 {
-                    var letter = textLine.Split('-');
+                    var letter = textLine.Split('.');
                     var key = Regex.Replace(letter[0], @"[\d-]", string.Empty);
 
-                    if (!dict.Keys.Contains(letter[0]))
-                        dict.Add(key, new List<string> { letter[1]});
+                    if (!dict.Keys.Contains(key))
+                        dict.Add(key, new List<string> { textLine});
                     else
-                        dict[letter[0]].Add(letter[1]);
+                        dict[key].Add(textLine);
 
                 }
             }

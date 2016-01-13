@@ -124,18 +124,18 @@
             // 
             this.DeadPeopleComboBox.FormattingEnabled = true;
             this.DeadPeopleComboBox.Items.AddRange(new object[] {
-            "January",
-            "February",
-            "March",
-            "April",
-            "May",
-            "June",
-            "July",
-            "August",
-            "September",
-            "Oktober",
-            "November",
-            "December"});
+            "januari",
+            "februari",
+            "mars",
+            "april",
+            "maj",
+            "juni",
+            "juli",
+            "augusti",
+            "september",
+            "oktober",
+            "november",
+            "december"});
             this.DeadPeopleComboBox.Location = new System.Drawing.Point(1, 233);
             this.DeadPeopleComboBox.Name = "DeadPeopleComboBox";
             this.DeadPeopleComboBox.Size = new System.Drawing.Size(121, 21);

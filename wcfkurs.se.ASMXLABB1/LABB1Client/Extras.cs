@@ -33,7 +33,9 @@ namespace LABB1Client
 
         private void DeadPeopleComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            Lab1ExtrasService3.Extras3ServiceSoapClient client = new Lab1ExtrasService3.Extras3ServiceSoapClient();
 
+            DeadPeopleResultBox.Text = client.FindDeadPeopleByMonth(DeadPeopleComboBox.SelectedText);
         }
     }
 }
