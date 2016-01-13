@@ -21,7 +21,7 @@ namespace LABB1Client
         {
             Lab1ExtrasService1.Extras1ServiceSoapClient client = new Lab1ExtrasService1.Extras1ServiceSoapClient();
 
-            StopMotionMovieResultLabel.Text += client.FindMovies(StopMotionMoviesBox.Text);
+            StopMotionMovieTxtBoxResult.Text = client.FindMovies(StopMotionMoviesBox.Text);
         }
     }
 }

@@ -26,13 +26,17 @@ namespace WCFLABB1upg6extras1
             var result = "";
 
             var movies = dict.Where(x => x.Key.Contains(year)).Select(x => x.Value).FirstOrDefault();
-
-            foreach (var movie in movies)
+            if (movies != null)
             {
-                result += movie + "\n\r";
+                foreach (var movie in movies)
+                {
+                    result += movie + "\n\r";
+                }
+                result = result.Trim();
+                return result;
             }
-            result = result.Trim();
-            return result;
+            else
+                return "No movies found";
         }
 
         private Dictionary<string,List<string>> ListPopulator(string year)

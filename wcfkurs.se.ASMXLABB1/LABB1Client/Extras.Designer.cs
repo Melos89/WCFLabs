@@ -31,7 +31,7 @@
             this.StopMotionMoviesBox = new System.Windows.Forms.TextBox();
             this.StopMotionLabel = new System.Windows.Forms.Label();
             this.StopMotionMovieButton = new System.Windows.Forms.Button();
-            this.StopMotionMovieResultLabel = new System.Windows.Forms.Label();
+            this.StopMotionMovieTxtBoxResult = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // StopMotionMoviesBox
@@ -60,21 +60,21 @@
             this.StopMotionMovieButton.UseVisualStyleBackColor = true;
             this.StopMotionMovieButton.Click += new System.EventHandler(this.StopMotionMovieButton_Click);
             // 
-            // StopMotionMovieResultLabel
+            // StopMotionMovieTxtBoxResult
             // 
-            this.StopMotionMovieResultLabel.AutoSize = true;
-            this.StopMotionMovieResultLabel.Location = new System.Drawing.Point(128, 19);
-            this.StopMotionMovieResultLabel.Name = "StopMotionMovieResultLabel";
-            this.StopMotionMovieResultLabel.Size = new System.Drawing.Size(40, 13);
-            this.StopMotionMovieResultLabel.TabIndex = 3;
-            this.StopMotionMovieResultLabel.Text = "Result:";
+            this.StopMotionMovieTxtBoxResult.Location = new System.Drawing.Point(153, 17);
+            this.StopMotionMovieTxtBoxResult.Multiline = true;
+            this.StopMotionMovieTxtBoxResult.Name = "StopMotionMovieTxtBoxResult";
+            this.StopMotionMovieTxtBoxResult.ReadOnly = true;
+            this.StopMotionMovieTxtBoxResult.Size = new System.Drawing.Size(383, 74);
+            this.StopMotionMovieTxtBoxResult.TabIndex = 3;
             // 
             // Extras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(548, 387);
-            this.Controls.Add(this.StopMotionMovieResultLabel);
+            this.Controls.Add(this.StopMotionMovieTxtBoxResult);
             this.Controls.Add(this.StopMotionMovieButton);
             this.Controls.Add(this.StopMotionLabel);
             this.Controls.Add(this.StopMotionMoviesBox);
@@ -90,6 +90,6 @@
         private System.Windows.Forms.TextBox StopMotionMoviesBox;
         private System.Windows.Forms.Label StopMotionLabel;
         private System.Windows.Forms.Button StopMotionMovieButton;
-        private System.Windows.Forms.Label StopMotionMovieResultLabel;
+        private System.Windows.Forms.TextBox StopMotionMovieTxtBoxResult;
     }
 }
