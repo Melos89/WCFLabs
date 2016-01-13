@@ -22,10 +22,20 @@ namespace WCFLABB1upg6extras1
         public string FindMovies(string year)
         {
             var dict = ListPopulator(year);
-            return "Hello World";
+
+            var result = "";
+
+            var movies = dict.Where(x => x.Key.Contains(year)).Select(x => x.Value).FirstOrDefault();
+
+            foreach (var movie in movies)
+            {
+                result += movie + "\n\r";
+            }
+            result = result.Trim();
+            return result;
         }
 
-        private Dictionary<string,string> ListPopulator(string year)
+        private Dictionary<string,List<string>> ListPopulator(string year)
         {
             //To get the location the assembly normally resides on disk or the install directory
             string path = System.Reflection.Assembly.GetExecutingAssembly().CodeBase;
@@ -34,14 +44,19 @@ namespace WCFLABB1upg6extras1
             //Cut away unwanted start sequence:
             var dir = directory.Substring(6);
 
-            var dict = new Dictionary<string, string>();
+            var dict = new Dictionary<string, List<string>>();
             var textLine = "";
             using (var stream = new StreamReader(dir + "\\StopMotionMovies.txt"))
             {
                 while ((textLine = stream.ReadLine()) != null)
                 {
                     var rows = textLine.Split('.');
-                    dict.Add(rows[0], rows[1]);
+
+                    if (!dict.Keys.Contains(rows[0]))
+                        dict.Add(rows[0], new List<string> { rows[1] });
+                    else
+                        dict[rows[0]].Add(rows[1]);
+
                 }
             }
             return dict;
