@@ -23,5 +23,12 @@ namespace LABB1Client
 
             StopMotionMovieTxtBoxResult.Text = client.FindMovies(StopMotionMoviesBox.Text);
         }
+
+        private void FruitButton_Click(object sender, EventArgs e)
+        {
+            Lab1ExtrasService2.Extras2ServiceSoapClient client = new Lab1ExtrasService2.Extras2ServiceSoapClient();
+
+            FruitResultTextBox.Text = client.FruitFinder(FruitTextBox.Text.FirstOrDefault());
+        }
     }
 }

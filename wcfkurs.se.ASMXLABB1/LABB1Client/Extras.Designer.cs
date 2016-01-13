@@ -35,6 +35,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.FruitTextBox = new System.Windows.Forms.TextBox();
             this.FruitButton = new System.Windows.Forms.Button();
+            this.FruitResultTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // StopMotionMoviesBox
@@ -96,12 +97,23 @@
             this.FruitButton.TabIndex = 6;
             this.FruitButton.Text = "Fruity";
             this.FruitButton.UseVisualStyleBackColor = true;
+            this.FruitButton.Click += new System.EventHandler(this.FruitButton_Click);
+            // 
+            // FruitResultTextBox
+            // 
+            this.FruitResultTextBox.Location = new System.Drawing.Point(153, 110);
+            this.FruitResultTextBox.Multiline = true;
+            this.FruitResultTextBox.Name = "FruitResultTextBox";
+            this.FruitResultTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.FruitResultTextBox.Size = new System.Drawing.Size(383, 104);
+            this.FruitResultTextBox.TabIndex = 7;
             // 
             // Extras
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(548, 387);
+            this.Controls.Add(this.FruitResultTextBox);
             this.Controls.Add(this.FruitButton);
             this.Controls.Add(this.FruitTextBox);
             this.Controls.Add(this.label1);
@@ -125,5 +137,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox FruitTextBox;
         private System.Windows.Forms.Button FruitButton;
+        private System.Windows.Forms.TextBox FruitResultTextBox;
     }
 }

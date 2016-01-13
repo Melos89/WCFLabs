@@ -21,7 +21,7 @@ namespace WCFLABB1upg6extras1
         [WebMethod]
         public string FindMovies(string year)
         {
-            var dict = ListPopulator(year);
+            var dict = ListPopulator();
 
             var result = "";
 
@@ -39,7 +39,7 @@ namespace WCFLABB1upg6extras1
                 return "No movies found";
         }
 
-        private Dictionary<string,List<string>> ListPopulator(string year)
+        private Dictionary<string,List<string>> ListPopulator()
         {
             //To get the location the assembly normally resides on disk or the install directory
             string path = System.Reflection.Assembly.GetExecutingAssembly().CodeBase;
