@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Services;
+using System.IO;
 
 namespace WCFLABB1upg5
 {
@@ -27,10 +28,16 @@ namespace WCFLABB1upg5
         public Dictionary<string,string> listPopulator()
         {
             var dict = new Dictionary<string, string>();
-
-            
-
-            return dict;
+            var textLine = "";
+            using (var stream = new StreamReader("/~Namnsdag.txt"))
+            {
+                while ((textLine = stream.ReadLine()) != null)
+                {
+                    var rows = textLine.Split(',');
+                    dict.Add(rows[0], rows[1]);
+                }
+            }
+                return dict;
         }
     }
 }
