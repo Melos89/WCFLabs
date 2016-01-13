@@ -58,6 +58,7 @@
             this.nameDayLabel = new System.Windows.Forms.Label();
             this.FindDayButton = new System.Windows.Forms.Button();
             this.NameDayDateLabel = new System.Windows.Forms.Label();
+            this.GoToExtrasButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // WeatherButton
@@ -320,11 +321,22 @@
             this.NameDayDateLabel.Size = new System.Drawing.Size(0, 13);
             this.NameDayDateLabel.TabIndex = 29;
             // 
+            // GoToExtrasButton
+            // 
+            this.GoToExtrasButton.Location = new System.Drawing.Point(15, 275);
+            this.GoToExtrasButton.Name = "GoToExtrasButton";
+            this.GoToExtrasButton.Size = new System.Drawing.Size(75, 23);
+            this.GoToExtrasButton.TabIndex = 30;
+            this.GoToExtrasButton.Text = "Extras";
+            this.GoToExtrasButton.UseVisualStyleBackColor = true;
+            this.GoToExtrasButton.Click += new System.EventHandler(this.GoToExtrasButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(360, 347);
+            this.Controls.Add(this.GoToExtrasButton);
             this.Controls.Add(this.NameDayDateLabel);
             this.Controls.Add(this.FindDayButton);
             this.Controls.Add(this.nameDayLabel);
@@ -394,6 +406,7 @@
         private System.Windows.Forms.Label nameDayLabel;
         private System.Windows.Forms.Button FindDayButton;
         private System.Windows.Forms.Label NameDayDateLabel;
+        private System.Windows.Forms.Button GoToExtrasButton;
     }
 }
 

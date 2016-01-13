@@ -48,6 +48,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extras.Designer.cs">
+      <DependentUpon>Extras.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -56,6 +62,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\Lab1ExtrasService1\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Service References\Lab1Service2\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -81,6 +92,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Extras.resx">
+      <DependentUpon>Extras.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -102,6 +116,10 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Service References\Lab1ExtrasService1\Extras1Service.wsdl" />
+    <None Include="Service References\Lab1ExtrasService1\LABB1Client.Lab1ExtrasService1.FindMoviesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\Lab1Service2\Lab1Service2.wsdl" />
     <None Include="Service References\Lab1Service3\Lab1Service3.wsdl" />
     <None Include="Service References\Lab1Service4\Lab1Service4.wsdl" />
@@ -121,6 +139,7 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
+    <WCFMetadataStorage Include="Service References\Lab1ExtrasService1\" />
     <WCFMetadataStorage Include="Service References\Lab1Service2\" />
     <WCFMetadataStorage Include="Service References\Lab1Service3\" />
     <WCFMetadataStorage Include="Service References\Lab1Service4\" />
@@ -198,6 +217,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Service References\Lab1Service5\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Lab1ExtrasService1\Extras1Service.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Lab1ExtrasService1\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Lab1ExtrasService1\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Lab1ExtrasService1\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>

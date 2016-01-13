@@ -60,5 +60,11 @@ namespace LABB1Client
 
             NameDayDateLabel.Text = client.DateFinder(NameBox.Text);
         }
+
+        private void GoToExtrasButton_Click(object sender, EventArgs e)
+        {
+            var extras = new Extras();
+            extras.Show();
+        }
     }
 }
