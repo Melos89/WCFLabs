@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E29F2D8C-5A51-4195-B766-E60DCC6B166E}</ProjectGuid>
+    <ProjectGuid>{DE2AB8CB-6FA9-40DE-8744-0402D22DC760}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BMIService</RootNamespace>
-    <AssemblyName>BMIService</AssemblyName>
+    <RootNamespace>BMICounterHosting</RootNamespace>
+    <AssemblyName>BMICounterHosting</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,12 +44,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BMICounterService.cs" />
-    <Compile Include="IBMICounter.cs" />
+    <Compile Include="BMIHoster.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BMIService\BMIService.csproj">
+      <Project>{e29f2d8c-5a51-4195-b766-e60dcc6b166e}</Project>
+      <Name>BMIService</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -5,31 +5,19 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ServiceModel;
 using System.ServiceModel.Description;
+using BMIService;
 
-namespace BMIService
+namespace BMICounterHosting
 {
-    [ServiceContract(Namespace ="http://BMIService")]
-    public interface IBMICounter
-    {
-        [OperationContract]
-        float CalculateBMI(float weight,float height);
-    }
-    public class BMICounterService : IBMICounter
-    {
-        public float CalculateBMI(float weightinKilos, float heightinCentimetres)
-        {
-            return (weightinKilos / heightinCentimetres) * weightinKilos;
-        }
-    }
-    class Program
+    class BMIHoster
     {
         static void Main(string[] args)
         {
             Uri baseAdress = new Uri("http://localhost:8080/BMIService");
 
-            using (var host = new ServiceHost(typeof(BMICounterService),baseAdress))
+            using (var host = new ServiceHost(typeof(BMICounterService), baseAdress))
             {
-                host.AddServiceEndpoint(typeof(IBMICounter),new WSHttpBinding(),"BMICounterService");
+                host.AddServiceEndpoint(typeof(IBMICounter), new WSHttpBinding(), "BMICounterService");
 
                 var smB = new ServiceMetadataBehavior();
                 smB.HttpGetEnabled = true;
