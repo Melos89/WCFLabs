@@ -51,6 +51,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DaysUntilNext1000DaysOld", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaysUntilNextThousandDays", "DaysUntilNextThousandDays\DaysUntilNextThousandDays.csproj", "{3E06BD58-FD1B-4BFC-AF42-FD2B4F234498}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaysUntilNextHosting", "DaysUntilNextHosting\DaysUntilNextHosting.csproj", "{B6E8F582-AC34-4C74-9F6A-C835455C8CBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +115,10 @@ Global
 		{3E06BD58-FD1B-4BFC-AF42-FD2B4F234498}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E06BD58-FD1B-4BFC-AF42-FD2B4F234498}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E06BD58-FD1B-4BFC-AF42-FD2B4F234498}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6E8F582-AC34-4C74-9F6A-C835455C8CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6E8F582-AC34-4C74-9F6A-C835455C8CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6E8F582-AC34-4C74-9F6A-C835455C8CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6E8F582-AC34-4C74-9F6A-C835455C8CBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -134,5 +140,6 @@ Global
 		{29B8773B-BF79-43E6-B0C6-039F69EF5547} = {BB1203EF-B32E-4539-9638-8685EB1332D7}
 		{0C026AC8-A98B-4B21-888D-9169A6DF32B5} = {7FEC6BBA-AD45-4320-BDC5-DC9EFA81EA6C}
 		{3E06BD58-FD1B-4BFC-AF42-FD2B4F234498} = {0C026AC8-A98B-4B21-888D-9169A6DF32B5}
+		{B6E8F582-AC34-4C74-9F6A-C835455C8CBE} = {0C026AC8-A98B-4B21-888D-9169A6DF32B5}
 	EndGlobalSection
 EndGlobal

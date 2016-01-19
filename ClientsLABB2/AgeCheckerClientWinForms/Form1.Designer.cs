@@ -1,4 +1,4 @@
-﻿namespace BMIClientWinForms
+﻿namespace AgeCheckerClientWinForms
 {
     partial class Form1
     {

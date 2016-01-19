@@ -12,6 +12,6 @@ namespace DaysUntilNextThousandDays
     public interface INextThousandDays
     {
         [OperationContract]
-        int DaysToGo(DateTime date);
+        DateTime DaysToGo(DateTime date);
     }
 }

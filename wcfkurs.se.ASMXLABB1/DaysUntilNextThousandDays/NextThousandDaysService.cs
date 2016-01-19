@@ -8,12 +8,19 @@ namespace DaysUntilNextThousandDays
 {
     public class NextThousandDaysService : INextThousandDays
     {
-        public int DaysToGo(DateTime date)
+        public DateTime DaysToGo(DateTime dateOfBirth)
         {
-            var today = DateTime.Now;
-            var resultTime = (today - date).TotalDays;
+            var now = DateTime.Now;
 
-            return 0;
+            var resultInDays = (now - dateOfBirth).TotalDays;
+
+            var moduloresult = resultInDays % 1000;
+
+            var daysUntilNext = 1000 - (int)moduloresult;
+
+            var date = now.AddDays(daysUntilNext);
+
+            return date;
         }
     }
 }
