@@ -10,6 +10,12 @@ namespace ThousandDaysClientConsole
     {
         static void Main(string[] args)
         {
+            var proxy
+            Console.WriteLine("Provide your date of birth in a yyyy/mm/dd format:");
+
+            var date = Console.ReadLine();
+
+
         }
     }
 }
