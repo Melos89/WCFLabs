@@ -13,7 +13,7 @@ namespace DaysUntilNextThousandDays
             var today = DateTime.Now;
             var resultTime = (today - date).TotalDays;
 
-
+            return 0;
         }
     }
 }
