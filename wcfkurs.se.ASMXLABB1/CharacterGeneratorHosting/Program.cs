@@ -21,7 +21,13 @@ namespace CharacterGeneratorHosting
 
                 var smB = new ServiceMetadataBehavior();
                 smB.HttpGetEnabled = true;
-                 
+
+                host.Description.Behaviors.Add(smB);
+
+                host.Open();
+                Console.WriteLine("Service is now open");
+                Console.WriteLine("To shut it down press Enter");
+                Console.ReadKey();
             }
         }
     }
