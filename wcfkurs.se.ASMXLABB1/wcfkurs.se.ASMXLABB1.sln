@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DaysUntilNextHosting", "Day
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HobbyService", "HobbyService", "{448F4766-A316-4297-BF3D-4B482D80DC2F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterGeneratorService", "CharacterGeneratorService\CharacterGeneratorService.csproj", "{3BA61D89-1157-42F9-9180-6F3AFD26BBF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,10 @@ Global
 		{B6E8F582-AC34-4C74-9F6A-C835455C8CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6E8F582-AC34-4C74-9F6A-C835455C8CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6E8F582-AC34-4C74-9F6A-C835455C8CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BA61D89-1157-42F9-9180-6F3AFD26BBF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BA61D89-1157-42F9-9180-6F3AFD26BBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BA61D89-1157-42F9-9180-6F3AFD26BBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BA61D89-1157-42F9-9180-6F3AFD26BBF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -144,5 +150,6 @@ Global
 		{3E06BD58-FD1B-4BFC-AF42-FD2B4F234498} = {0C026AC8-A98B-4B21-888D-9169A6DF32B5}
 		{B6E8F582-AC34-4C74-9F6A-C835455C8CBE} = {0C026AC8-A98B-4B21-888D-9169A6DF32B5}
 		{448F4766-A316-4297-BF3D-4B482D80DC2F} = {7FEC6BBA-AD45-4320-BDC5-DC9EFA81EA6C}
+		{3BA61D89-1157-42F9-9180-6F3AFD26BBF4} = {448F4766-A316-4297-BF3D-4B482D80DC2F}
 	EndGlobalSection
 EndGlobal
