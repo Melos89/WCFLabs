@@ -57,6 +57,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HobbyService", "HobbyServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterGeneratorService", "CharacterGeneratorService\CharacterGeneratorService.csproj", "{3BA61D89-1157-42F9-9180-6F3AFD26BBF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CharacterGeneratorHosting", "CharacterGeneratorHosting\CharacterGeneratorHosting.csproj", "{C559806C-3D55-4BAD-8B30-37C3FF4EC691}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +129,10 @@ Global
 		{3BA61D89-1157-42F9-9180-6F3AFD26BBF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BA61D89-1157-42F9-9180-6F3AFD26BBF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BA61D89-1157-42F9-9180-6F3AFD26BBF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C559806C-3D55-4BAD-8B30-37C3FF4EC691}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C559806C-3D55-4BAD-8B30-37C3FF4EC691}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C559806C-3D55-4BAD-8B30-37C3FF4EC691}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C559806C-3D55-4BAD-8B30-37C3FF4EC691}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -151,5 +157,6 @@ Global
 		{B6E8F582-AC34-4C74-9F6A-C835455C8CBE} = {0C026AC8-A98B-4B21-888D-9169A6DF32B5}
 		{448F4766-A316-4297-BF3D-4B482D80DC2F} = {7FEC6BBA-AD45-4320-BDC5-DC9EFA81EA6C}
 		{3BA61D89-1157-42F9-9180-6F3AFD26BBF4} = {448F4766-A316-4297-BF3D-4B482D80DC2F}
+		{C559806C-3D55-4BAD-8B30-37C3FF4EC691} = {448F4766-A316-4297-BF3D-4B482D80DC2F}
 	EndGlobalSection
 EndGlobal
