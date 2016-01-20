@@ -12,5 +12,9 @@ namespace CharacterGeneratorService
     {
         [OperationContract]
         Character GenerateCharacter(string name, string classType, int age);
+        [OperationContract]
+        List<string> GenerateAblities(string classType);
+        [OperationContract]
+        double CalculateHealth(int age,int level);
     }
 }
