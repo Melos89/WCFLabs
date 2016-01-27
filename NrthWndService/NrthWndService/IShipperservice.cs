@@ -8,7 +8,7 @@ using System.Text;
 namespace NrthWndService
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IShipperservice" in both code and config file together.
-    [ServiceContract]
+    [ServiceContract(Namespace ="http://Shippery")]
     public interface IShipperservice
     {
         [OperationContract]
